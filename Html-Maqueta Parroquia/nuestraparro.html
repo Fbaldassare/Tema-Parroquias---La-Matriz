@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Parroquia La Matriz</title>
+    <!--Cascadas-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--Popup-->
+     <script type="text/javascript">
+   $(document).ready(function() {
+
+  $('.image-popup-vertical-fit').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    mainClass: 'mfp-img-mobile',
+    image: {
+      verticalFit: true
+    }
+    
+  });
+
+  $('.image-popup-fit-width').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    image: {
+      verticalFit: false
+    }
+  });
+
+  $('.image-popup-no-margins').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    closeBtnInside: false,
+    fixedContentPos: true,
+    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+    image: {
+      verticalFit: true
+    },
+    zoom: {
+      enabled: true,
+      duration: 300 // don't foget to change the duration also in CSS
+    }
+  });
+
+});
+   </script>
+    <!--Tipografías-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  </head>
+
+
+<!--Aquí comienza el Header-->
+<header>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+      </button>
+
+      <a class="navbar-brand"><h5>Parroquia La Matriz</h5><p>Del Redentor del Mundo</p></a>
+    </div>
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+       <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nuestra Parroquia<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="nuestraparro.html">Nuestra Parroquia</a></li>
+            <li><a href="nuestrahisto.html">Nuestra Historia</a></li>
+          </ul>
+         <li><a href="Nuestro Barrio.html">Nuestro Barrio</a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acción Social<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="acsocial.html">¿Qué es Acción Social?</a></li>
+            <li><a href="Capacitacion.html">Capacitación Computacional</a></li>
+            <li><a href="comedor.html">Comedor 421</a></li>
+            <li><a href="escuela de futbol.html">Escuela de Fútbol Santiago Wanderers</a></li>
+          </ul>
+        </li>
+        <li><a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Talleres<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="talleres.html">¿Qué son los Talleres?</a></li>
+            <li><a href="catequesis.html">Catequesis</a></li>
+            <li><a href="Eje.html">Encuentro de Jóvenes con el Espíritu</a></li>
+            <li><a href="luzyamor.html">Grupo de Oración Luz y Amor</a></li>
+            <li><a href="solprimavera.html">Grupo Sol de Primavera</a></li>
+            <li><a href="infancia.html">Infancia Misionera</a></li>
+            <li><a href="familiar.html">Pastoral Familiar</a></li>
+          </ul>
+        </li>
+        <li><a href="apostolados.html">Apostolados</a></li>
+        <li><a href="servicio.html">Servicios a la Comunidad</a></li>
+        <li><a href="vinculos.html">Vínculos</a></li>
+      </ul>
+      <div class"nav navbar-nav navbar-right">
+      <div class="line-menu"></div>
+      <ul class="nav navbar-nav col-lg-4">
+        <ol class="breadcrumb" id="uno">
+          <li><h6>USTED ESTÁ AQUÍ:</h6></li>
+      <li><a href="#">Nuestra Parroquia</a></li>
+      <li class="active">Nuestra Pa..</li>
+    </ol>
+      </ul>
+      <ul class="nav navbar-nav col-lg-4 " id="dos">
+          <li><a><h6>ACCEDE A:</h6></a></li>
+      <li><a href="http://evangeliodeldia.org/M/SP/">Evangelio del Día</a></li>
+      <li><a href="http://www.es.catholic.net/op/santoral/">Santoral</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right col-lg-4" id="tres">
+          <li><a><h6>SÍGUENOS EN:</h6></a></li>
+      <li><a href="https://es-la.facebook.com/corporacionlamatrizvalpo"><img height="15px" src="imagenes/Fwhite.png"></a></li>
+      <li><a href="https://twitter.com"><img height="15px" src="imagenes/Twhite.png"></a></li>
+    </ul>
+  </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+<!--Aquí comienza el Body-->
+
+<body>
+  
+  <!--Imagen La Matriz-->
+  <div class="encabezado">
+    <img src="imagenes/matriz encabezado.jpg" class="img-responsive">
+  </div>
+  <div class="container">
+    <div class="col-lg-10 col-md-10 col-xs-12 inscripcion">
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <h2>NUESTRA PARROQUIA</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum orci nibh, et ultricies nibh rutrum id. Etiam dapibus bibendum facilisis. Praesent id eros vel enim tristique posuere at vitae ante. Cras nunc ipsum, hendrerit eget enim id, porttitor porttitor augue. Vestibulum felis libero, sodales in semper commodo, interdum at libero. In sit amet accumsan leo, porta commodo neque. Etiam at libero commodo dui hendrerit pretium interdum at arcu. In suscipit ornare leo.</p>
+      </div><!--Fin Col-lg-12-->
+
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <h3>Visión</h3>
+        <p>Mauris at mauris non dui rutrum hendrerit a in dolor. Vivamus porta justo a erat vestibulum, nec ornare eros lobortis. Vestibulum egestas enim vitae nibh malesuada, vel dignissim justo tristique. Sed molestie auctor sem vitae tempor. Suspendisse euismod est sed dolor consectetur, ut euismod sem sollicitudin. Suspendisse augue eros, vulputate ut ex vel, pretium pulvinar diam. Morbi pharetra, velit convallis convallis aliquet, nisl nisi dapibus ante, at cursus ligula justo a enim. Ut egestas nulla vitae ullamcorper venenatis. Quisque ut nibh sagittis, porta quam at, malesuada nibh. Maecenas ut aliquam augue, sed mattis quam. Morbi aliquam dignissim venenatis. Maecenas porta nunc velit. Sed elementum justo nec magna ultrices, et faucibus sem faucibus. Ut eu nibh est. Praesent pharetra urna ut felis rutrum, nec ornare augue rutrum.</p>
+      </div><!--Fin Col-lg-6-->
+
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <h3>Misión</h3>
+        <p>Aliquam erat volutpat. Maecenas placerat aliquam arcu. Etiam sit amet leo mollis felis vehicula tempor vitae et massa. Nam varius vitae sapien ac maximus. Sed mauris orci, hendrerit vitae enim nec, condimentum mattis nunc. Quisque nisl arcu, convallis ac est quis, commodo pharetra magna. Aliquam erat volutpat. Nam mollis neque scelerisque massa tristique mattis. Aliquam scelerisque posuere lorem at malesuada. Cras et mi neque. Curabitur varius ante orci, quis dapibus elit posuere quis. Donec quis vehicula nisi. Praesent vitae vestibulum lectus. Vivamus congue ornare magna sit amet semper.</p>
+      </div><!--Fin Col-lg-6-->
+      <div class="col-lg-12 col-md-12 col-xs-12">
+      <h3>GALERÍA DE IMÁGENES</h3>
+      </div>
+      
+
+      
+   
+     
+
+        <a href="imagenes/matriz3.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/eje-6.jpg"></a>
+
+        <a  href="imagenes/matriz4.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/eje-7.jpg"></a>
+     
+        <a  href="imagenes/matriz1.JPG" data-lightbox="image1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/eje-9.jpg"></a>
+
+        <a  href="imagenes/ej-9.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/ej-1.jpg"></a>
+     
+        <a href="imagenes/matriz2.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/eje-8.jpg"></a>
+      
+        <a href="imagenes/Iglesia_Matriz.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/ej-3.jpg"></a>
+      
+        <a  href="imagenes/iglesia-valpo_92827.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/ej-4.jpg"></a>
+      
+        <a href="imagenes/5568653969_40e9a95972_z.jpg" data-lightbox="image-1" data-title="Cras vitae metus dolor. In at nulla egestas, consequat augue id, scelerisque sem. Praesent ultrices ipsum eget sagittis mollis. Morbi neque nunc, sagittis vehicula consequat a, imperdiet eget mauris. Etiam nec varius ex, ut malesuada urna. Sed ligula purus, ornare at gravida sed, dignissim vel sapien. Maecenas aliquet tristique gravida."><img class="polo col-lg-3 col-md-3 col-xs-6" src="imagenes/ej-2.jpg"></a>
+
+
+  <!--Aquí Comienza Sidebar-->
+
+<!--Aquí Comienza Sidebar-->
+  </div>
+
+ 
+
+    
+    <div class="col-lg-2 col-md-2 col-xs-12">
+        <div class="sidebar">
+          <ul>
+            <li><img src="imagenes\social vm2.svg" height="15px"></li>
+            <li><h5>#LaMatrizValparaíso</h5></li>
+          </ul>
+        </div>
+        <div class="seccion2">
+          <h6>13 Dic 2014, 12:45</h6>
+          <h6>Se necesitan voluntarios para Comedor 421 a las 13:00 hrs.</h6>
+        </div>
+        <div class="seccion2">
+          <h6>13 Dic 2014, 12:45</h6>
+          <h6>Se necesitan voluntarios para Comedor 421 a las 13:00 hrs.</h6>
+        </div>
+        <div class="seccion2">
+          <h6>13 Dic 2014, 12:45</h6>
+          <h6>Se necesitan voluntarios para Comedor 421 a las 13:00 hrs.</h6>
+        </div>
+        <div class="seccion2">
+          <h6>13 Dic 2014, 12:45</h6>
+          <h6>Se necesitan voluntarios para Comedor 421 a las 13:00 hrs.</h6>
+        </div>
+        <div class="seccion2">
+          <h6>13 Dic 2014, 12:45</h6>
+          <h6>Se necesitan voluntarios para Comedor 421 a las 13:00 hrs.</h6>
+        </div>
+      
+        <div class="sidebar">
+          <ul>
+           <li><h5>Más Acción Social</h5></li>
+          </ul>
+        </div>
+        <div class="seccion3">
+            <a href="Capacitacion.html"><h5>Capacitación Computacional</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="comedor.html"><h5>Comedor 421</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="escuela de futbol.html"><h5>Escuela de Fútbol Santiago Wanderers La Matriz</h5></a>
+        </div>
+     
+        <div class="sidebar">
+          <ul>
+           <li><h5>Talleres</h5></li>
+          </ul>
+        </div>
+        <div class="seccion3">
+            <a href="catequesis.html"><h5>Catequesis</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="Eje.html"><h5>Encuentro de Jóvenes con el Espíritu</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="luzyamor.html"><h5>Grupo de Oración Luz y Amor</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="familiar.html"><h5>Pastoral Familiar</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="solprimavera.html"><h5>Grupo Sol de Primavera</h5></a>
+        </div>
+        <div class="seccion3">
+            <a href="infancia.html"><h5>Infancia Misionera</h5></a>
+        </div>
+      </div>
+      </div>
+  </div>
+  
+
+  </div>
+</body>
+
+<!--Aquí comienza Footer-->
+ <footer>
+
+<div id="container-footer2">
+
+    <div class="container">
+        <div class="col-lg-3 col-md-3 col-xs-12">
+          <h4>Misas</h4>
+          <p>Ma a Sá:19:00 hrs</p>
+          <p>Do:9:30 y 12:00 hrs</p>
+        </div>
+          
+        <div class="col-lg-3 col-md-3 col-xs-12">
+          <h4>Horario de Atención Secretaría</h4>
+          <p>Lu:16:00 - 20:00 hrs</p>
+          <p>Ma a Vi:10:00 - 13:00 hrs y 16:00 - 20:00 hrs</p>
+          <p>Sá:10:00 - 13:00 y 15:30 - 20:00 hrs</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12">
+          <h4>Contacto</h4> 
+          <p>Párroco: Pbro. Gonzalo Bravo Alvarez</p>
+          <p>Direcció: Santo Domingo Nª 71, Valparaíso</p>
+          <p>Fono: 32 221 487 6</p>
+          <p>Email: parroquialamatriz@hotmail.com </p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-xs-12">
+          <h4>Diseño</h4>
+          <p>Franco Matías Baldassare Rodríguez</p>
+          <p>Diseñador Gráfico - PUCV</p>
+        </div>
+      </div>  
+  </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3344.7617044159674!2d-71.631919!3d-33.036408!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e6cd5335c3d5%3A0xb0b12e0bdb09ac33!2sIglesia+de+la+Matriz!5e0!3m2!1ses!2scl!4v1432001707144" width="100%" height="150" frameborder="0" style="border:0"></iframe>
+  </div>
+</footer>
+<!--Aquí termina Footer-->
+</html>
+
